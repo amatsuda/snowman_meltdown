@@ -4,13 +4,13 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "snowman_meltdown"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
-    gem.email = "ronnie@dio.jp"
-    gem.homepage = "http://github.com/amatsuda/snowman_meltdown"
-    gem.authors = ["Akira Matsuda"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
+    gem.name = 'snowman_meltdown'
+    gem.summary = %Q{A simple middleware for Rails 3 to vanish _snowman from GET params}
+    gem.description = %Q{goodbye _snowman...}
+    gem.email = 'ronnie@dio.jp'
+    gem.homepage = 'http://github.com/amatsuda/snowman_meltdown'
+    gem.authors = ['Akira Matsuda']
+    gem.add_development_dependency 'rspec', '>= 2.0.0.beta.19'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
