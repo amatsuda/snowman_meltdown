@@ -6,7 +6,7 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = 'snowman_meltdown'
     gem.summary = %Q{A simple middleware for Rails 3 to vanish _snowman parameter☃☃☃}
-    gem.description = %Q{goodbye _snowman...}
+    gem.description = %Q{goodbye _snowman...☃☃☃}
     gem.email = 'ronnie@dio.jp'
     gem.homepage = 'http://github.com/amatsuda/snowman_meltdown'
     gem.authors = ['Akira Matsuda']
