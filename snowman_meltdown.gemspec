@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{snowman_meltdown}
-  s.version = "0.0.3"
+  s.version = "0.0.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Akira Matsuda"]
@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
-     "init.rb",
      "lib/snowman_meltdown.rb",
      "lib/snowman_meltdown/middleware.rb",
      "snowman_meltdown.gemspec",
@@ -35,7 +34,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{A simple middleware for Rails 3 to vanish _snowman from GET params}
+  s.summary = %q{A simple middleware for Rails 3 to vanish _snowman parameter☃☃☃}
   s.test_files = [
     "spec/snowman_meltdown_spec.rb",
      "spec/spec_helper.rb"
