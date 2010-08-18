@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{snowman_meltdown}
-  s.version = "0.0.5"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Akira Matsuda"]
-  s.date = %q{2010-08-11}
-  s.description = %q{goodbye _snowman...}
+  s.date = %q{2010-08-18}
+  s.description = %q{goodbye _snowman...☃☃☃}
   s.email = %q{ronnie@dio.jp}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
      "VERSION",
      "lib/snowman_meltdown.rb",
      "lib/snowman_meltdown/middleware.rb",
+     "lib/snowman_meltdown/target_extractor.rb",
      "snowman_meltdown.gemspec",
      "spec/snowman_meltdown_spec.rb",
      "spec/spec.opts",
