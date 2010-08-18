@@ -1,7 +1,7 @@
 require File.join(File.dirname(__FILE__), 'snowman_meltdown/middleware')
 
 module SnowmanMeltdown
-  class Engine < Rails::Engine
+  class Railtie < Rails::Railtie
     initializer 'add middleware' do |app|
       app.middleware.use SnowmanMeltdown::Middleware
     end
